@@ -1,1 +1,8 @@
-<ASB027_Iowa_1943.model><exporter>1.6</exporter><parent>PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB027_Iowa_1943_Full_lod4</parent><extent>400.000000</extent><castsShadow>true</castsShadow><nodefullVisual>PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB027_Iowa_1943</nodefullVisual><metaData>Wargaming | Lesta Studio</metaData></ASB027_Iowa_1943.model>
+<ASB027_Iowa_1943.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB027_Iowa_1943_Full_lod4	</parent>
+	<extent>	400.000000	</extent>
+	<castsShadow>	true	</castsShadow>
+	<nodefullVisual>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB027_Iowa_1943	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</ASB027_Iowa_1943.model>

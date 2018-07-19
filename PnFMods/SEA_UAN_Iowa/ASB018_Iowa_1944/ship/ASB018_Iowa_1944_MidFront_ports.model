@@ -1,1 +1,8 @@
-<ASB018_Iowa_1944_MidFront_ports.model><castsShadow>true</castsShadow><exporter>1.6</exporter><materialNames /><extent>200.000000</extent><nodefullVisual>PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB018_Iowa_1944_MidFront_ports</nodefullVisual><metaData>Wargaming | Lesta Studio</metaData></ASB018_Iowa_1944_MidFront_ports.model>
+<ASB018_Iowa_1944_MidFront_ports.model>
+	<castsShadow>	true	</castsShadow>
+	<exporter>	1.6	</exporter>
+	<materialNames />
+	<extent>	200.000000	</extent>
+	<nodefullVisual>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB018_Iowa_1944_MidFront_ports	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</ASB018_Iowa_1944_MidFront_ports.model>

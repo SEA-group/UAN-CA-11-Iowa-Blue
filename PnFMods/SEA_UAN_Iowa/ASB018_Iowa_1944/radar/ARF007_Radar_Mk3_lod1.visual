@@ -1,1 +1,98 @@
-<ARF007_Radar_Mk3_lod1.visual><boundingBox><min>-0.118905 -0.000000 -0.036012</min><max>0.118906 0.080580 0.018461</max></boundingBox><node><identifier>Scene Root</identifier><transform><row0>1.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000</row1><row2>0.000000 0.000000 1.000000</row2><row3>0.000000 0.000000 0.000000</row3></transform><node><identifier>Root</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform><node><identifier>Rotate_Y</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.033350 0.000000 1.000000</row3></transform><node><identifier>Rotate_Y_BlendBone</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 -1.000000 0.000000</row2><row3>0.000000 -0.033350 0.000000 1.000000</row3></transform></node></node><node><identifier>Root_BlendBone</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 -1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform></node></node><node><identifier>ARF007_Radar_Mk3</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform><node><identifier>ARF007_Radar_Mk3_grid</identifier><transform><row0>1.000000 0.000000 0.000000 0.000000</row0><row1>0.000000 1.000000 0.000000 0.000000</row1><row2>0.000000 0.000000 1.000000 0.000000</row2><row3>0.000000 0.000000 0.000000 1.000000</row3></transform></node></node></node><renderSet><treatAsWorldSpaceObject>true</treatAsWorldSpaceObject><node>Root_BlendBone</node><node>Rotate_Y_BlendBone</node><geometry><vertices>ARF007_Radar_Mk3_lod1Shape.vertices</vertices><primitive>ARF007_Radar_Mk3_lod1Shape.indices</primitive><primitiveGroup>0<material><identifier>SHIPMAT_PBS_Director</identifier><mfm>PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/365dc59de6b117871460a90fb77e1f40.mfm</mfm></material></primitiveGroup></geometry></renderSet><renderSet><treatAsWorldSpaceObject>true</treatAsWorldSpaceObject><node>Rotate_Y_BlendBone</node><geometry><vertices>ARF007_Radar_Mk3_grid_lod1Shape.vertices</vertices><primitive>ARF007_Radar_Mk3_grid_lod1Shape.indices</primitive><primitiveGroup>0<material><identifier>SHIPMAT_PBS_Director1</identifier><mfm>PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/e2e4bd9373c5fadabfb348b605955e99.mfm</mfm></material></primitiveGroup></geometry></renderSet></ARF007_Radar_Mk3_lod1.visual>
+<ARF007_Radar_Mk3_lod1.visual>
+	<boundingBox>
+		<min>	-0.118905 -0.000000 -0.036012	</min>
+		<max>	0.118906 0.080580 0.018461	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Root	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Rotate_Y	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.033350 0.000000 1.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Rotate_Y_BlendBone	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+						<row3>	0.000000 -0.033350 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Root_BlendBone	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	ARF007_Radar_Mk3	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	ARF007_Radar_Mk3_grid	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Root_BlendBone	</node>
+		<node>	Rotate_Y_BlendBone	</node>
+		<geometry>
+			<vertices>	ARF007_Radar_Mk3_lod1Shape.vertices	</vertices>
+			<primitive>	ARF007_Radar_Mk3_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/ARF007_Radar_Mk3_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Rotate_Y_BlendBone	</node>
+		<geometry>
+			<vertices>	ARF007_Radar_Mk3_grid_lod1Shape.vertices	</vertices>
+			<primitive>	ARF007_Radar_Mk3_grid_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_PBS_Director1	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/ARF007_Radar_Mk3_grid_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</ARF007_Radar_Mk3_lod1.visual>

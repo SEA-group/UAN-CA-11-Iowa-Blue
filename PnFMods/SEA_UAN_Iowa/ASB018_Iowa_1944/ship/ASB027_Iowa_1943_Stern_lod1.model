@@ -1,1 +1,8 @@
-<ASB027_Iowa_1943_Stern_lod1.model><exporter>1.6</exporter><parent>PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB027_Iowa_1943_Stern_lod2</parent><extent>24.000000</extent><castsShadow>true</castsShadow><nodefullVisual>PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB027_Iowa_1943_Stern_lod1</nodefullVisual><metaData>Wargaming | Lesta Studio</metaData></ASB027_Iowa_1943_Stern_lod1.model>
+<ASB027_Iowa_1943_Stern_lod1.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB027_Iowa_1943_Stern_lod2	</parent>
+	<extent>	24.000000	</extent>
+	<castsShadow>	true	</castsShadow>
+	<nodefullVisual>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB027_Iowa_1943_Stern_lod1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</ASB027_Iowa_1943_Stern_lod1.model>

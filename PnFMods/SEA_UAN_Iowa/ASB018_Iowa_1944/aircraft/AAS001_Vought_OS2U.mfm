@@ -1,0 +1,17 @@
+<AAS001_Vought_OS2U.mfm>
+	<fx>	shaders/std_effects/PBS.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/AAS001_Vought_OS2U_mg.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/AAS001_Vought_OS2U_a.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/AAS001_Vought_OS2U_n.tga	</Texture>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/default_ao.tga	</Texture>
+	</property>
+</AAS001_Vought_OS2U.mfm>
