@@ -1,7 +1,7 @@
 <AAS001_Vought_OS2U_lod1.visual>
 	<boundingBox>
-		<min>	-0.361379 -0.004787 -0.399750	</min>
-		<max>	0.361738 0.298113 0.284679	</max>
+		<min>	-0.362128 -0.004787 -0.399498	</min>
+		<max>	0.362487 0.298078 0.284650	</max>
 	</boundingBox>
 	<node>
 		<identifier>	Scene Root	</identifier>
@@ -20,7 +20,16 @@
 				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 			</transform>
 			<node>
-				<identifier>	propeller_disk	</identifier>
+				<identifier>	hull_wire	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	propeller_mod	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -28,7 +37,7 @@
 					<row3>	0.000183 0.152992 0.192049 1.000000	</row3>
 				</transform>
 				<node>
-					<identifier>	disk	</identifier>
+					<identifier>	disc	</identifier>
 					<transform>
 						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -38,21 +47,12 @@
 				</node>
 			</node>
 			<node>
-				<identifier>	propeller_mod	</identifier>
+				<identifier>	mod	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
 					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
 					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFireBack	</identifier>
-				<transform>
-					<row0>	-1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
-					<row3>	0.000000 0.217987 -0.169608 1.000000	</row3>
 				</transform>
 			</node>
 		</node>
@@ -61,8 +61,8 @@
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
 		<node>	hull	</node>
 		<geometry>
-			<vertices>	hull_lodShape1.vertices	</vertices>
-			<primitive>	hull_lodShape1.indices	</primitive>
+			<vertices>	hull_lod1Shape.vertices	</vertices>
+			<primitive>	hull_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
 					<identifier>	PBS_Plane	</identifier>
@@ -73,24 +73,38 @@
 	</renderSet>
 	<renderSet>
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	disk	</node>
+		<node>	hull_wire	</node>
 		<geometry>
-			<vertices>	disk_lod1Shape.vertices	</vertices>
-			<primitive>	disk_lod1Shape.indices	</primitive>
+			<vertices>	hull_wire_lod1Shape.vertices	</vertices>
+			<primitive>	hull_wire_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PROPELLERMAT_propeller	</identifier>
-					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/USA_Disk_2Blade_01.mfm	</mfm>
+					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/AAS001_Vought_OS2U_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>
 	</renderSet>
 	<renderSet>
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	propeller_mod	</node>
+		<node>	disc	</node>
 		<geometry>
-			<vertices>	propeller_mod_lod1Shape.vertices	</vertices>
-			<primitive>	propeller_mod_lod1Shape.indices	</primitive>
+			<vertices>	disc_lod1Shape.vertices	</vertices>
+			<primitive>	disc_lod1Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	PROPELLERMAT_propeller	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/USA_Disk_2Blade_01_alpha.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mod	</node>
+		<geometry>
+			<vertices>	mod_lod1Shape.vertices	</vertices>
+			<primitive>	mod_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
 					<identifier>	PBS_Plane	</identifier>

@@ -1,6 +1,6 @@
 <AAS001_Vought_OS2U_lod2.model>
 	<castsShadow>	true	</castsShadow>
-	<extent>	40.000000	</extent>
+	<extent>	40.0000	</extent>
 	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/AAS001_Vought_OS2U_lod3	</parent>
 	<materialNames />
 	<visibilityBox>

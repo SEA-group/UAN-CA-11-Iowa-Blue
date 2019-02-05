@@ -1,7 +1,7 @@
 <AAS001_Vought_OS2U.visual>
 	<boundingBox>
-		<min>	-0.361379 -0.008575 -0.400032	</min>
-		<max>	0.361738 0.298113 0.284679	</max>
+		<min>	-0.361819 -0.008575 -0.400060	</min>
+		<max>	0.362178 0.298242 0.284650	</max>
 	</boundingBox>
 	<node>
 		<identifier>	Scene Root	</identifier>
@@ -20,7 +20,16 @@
 				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
 			</transform>
 			<node>
-				<identifier>	propeller_disk	</identifier>
+				<identifier>	mod	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	propeller_mod	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -28,7 +37,7 @@
 					<row3>	0.000183 0.152992 0.192049 1.000000	</row3>
 				</transform>
 				<node>
-					<identifier>	disk	</identifier>
+					<identifier>	disc	</identifier>
 					<transform>
 						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -38,16 +47,7 @@
 				</node>
 			</node>
 			<node>
-				<identifier>	HP_gunFireBack	</identifier>
-				<transform>
-					<row0>	-1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 -1.000000 0.000000	</row2>
-					<row3>	0.000000 0.217987 -0.169608 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	propeller_mod	</identifier>
+				<identifier>	hull_wire	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -73,28 +73,42 @@
 	</renderSet>
 	<renderSet>
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	disk	</node>
+		<node>	mod	</node>
 		<geometry>
-			<vertices>	diskShape.vertices	</vertices>
-			<primitive>	diskShape.indices	</primitive>
+			<vertices>	modShape.vertices	</vertices>
+			<primitive>	modShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PROPELLERMAT_propeller	</identifier>
-					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/USA_Disk_2Blade_01.mfm	</mfm>
+					<identifier>	PBS_Plane	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/AAS001_Vought_OS2U.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>
 	</renderSet>
 	<renderSet>
 		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	propeller_mod	</node>
+		<node>	disc	</node>
 		<geometry>
-			<vertices>	propeller_modShape.vertices	</vertices>
-			<primitive>	propeller_modShape.indices	</primitive>
+			<vertices>	discShape.vertices	</vertices>
+			<primitive>	discShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	PBS_Plane	</identifier>
-					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/AAS001_Vought_OS2U.mfm	</mfm>
+					<identifier>	PROPELLERMAT_propeller	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/USA_Disk_2Blade_01_alpha.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	hull_wire	</node>
+		<geometry>
+			<vertices>	hull_wireShape.vertices	</vertices>
+			<primitive>	hull_wireShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/AAS001_Vought_OS2U_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>
