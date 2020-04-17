@@ -38,7 +38,7 @@
 			<primitive>	Turret_deadShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_GunDeadX	</identifier>
+					<identifier>	SHIPMATX_PBS_GunDeadX	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/gun/AGM034_16in50_Mk7_dead.mfm	</mfm>
 				</material>
 			</primitiveGroup>

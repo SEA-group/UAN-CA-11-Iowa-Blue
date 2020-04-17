@@ -75,7 +75,7 @@
 			<primitive>	ARF007_Radar_Mk3_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<identifier>	SHIPMATX_PBS_Director	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/ARF007_Radar_Mk3_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -89,7 +89,7 @@
 			<primitive>	ARF007_Radar_Mk3_grid_lod2Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_Director1	</identifier>
+					<identifier>	SHIPMATX_PBS_Director1	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/ARF007_Radar_Mk3_grid_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>

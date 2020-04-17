@@ -74,7 +74,7 @@
 			<primitive>	Bofors_lodShape2.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_GunX	</identifier>
+					<identifier>	SHIPMATX_PBS_GunX	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/gun/AGA056_40mm_Bofors.mfm	</mfm>
 				</material>
 			</primitiveGroup>

@@ -56,7 +56,7 @@
 			<primitive>	Director_Mk38Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_Director	</identifier>
+					<identifier>	SHIPMATX_PBS_Director	</identifier>
 					<mfm>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/director/AD018_Director_Mk38.mfm	</mfm>
 				</material>
 			</primitiveGroup>
