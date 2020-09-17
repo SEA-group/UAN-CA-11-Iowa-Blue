@@ -1,6 +1,6 @@
 <ASB018_Iowa_1944.model>
 	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB018_Iowa_1944_Full_lod4	</parent>
+	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/lods/ASB018_Iowa_1944_Full_lod4	</parent>
 	<extent>	400.000000	</extent>
 	<castsShadow>	true	</castsShadow>
 	<nodefullVisual>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/ship/ASB018_Iowa_1944	</nodefullVisual>

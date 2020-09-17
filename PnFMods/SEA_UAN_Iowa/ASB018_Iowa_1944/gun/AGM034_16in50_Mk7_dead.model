@@ -1,6 +1,6 @@
 <AGM034_16in50_Mk7_dead.model>
 	<extent>	6.0000	</extent>
-	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/gun/AGM034_16in50_Mk7_dead_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/gun/lods/AGM034_16in50_Mk7_dead_lod1	</parent>
 	<materialNames />
 	<castsShadow>	true	</castsShadow>
 	<visibilityBox>

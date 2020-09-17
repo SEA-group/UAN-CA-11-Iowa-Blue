@@ -11,7 +11,7 @@
 		<max>	0.024882 0.073879 0.015777	</max>
 	</visibilityBox>
 	<extent>	2.000000	</extent>
-	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/ARF021_Radar_Mk27_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/lods/ARF021_Radar_Mk27_lod1	</parent>
 	<exporter>	1.6	</exporter>
 	<nodefullVisual>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/ARF021_Radar_Mk27	</nodefullVisual>
 	<animation>

@@ -1,0 +1,13 @@
+<AAS001_Vought_OS2U_lod1.model>
+	<castsShadow>	true	</castsShadow>
+	<extent>	20.0000	</extent>
+	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/lods/AAS001_Vought_OS2U_lod2	</parent>
+	<materialNames />
+	<visibilityBox>
+		<min>	-0.358827 0.001924 -0.465316	</min>
+		<max>	0.362695 0.309492 0.232500	</max>
+	</visibilityBox>
+	<exporter>	1.6	</exporter>
+	<nodefullVisual>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/aircraft/lods/AAS001_Vought_OS2U_lod1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</AAS001_Vought_OS2U_lod1.model>

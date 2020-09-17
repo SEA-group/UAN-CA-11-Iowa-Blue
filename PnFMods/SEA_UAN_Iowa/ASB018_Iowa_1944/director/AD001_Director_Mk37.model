@@ -2,7 +2,7 @@
 	<castsShadow>	false	</castsShadow>
 	<materialNames />
 	<extent>	3.000000	</extent>
-	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/director/AD001_Director_Mk37_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/director/lods/AD001_Director_Mk37_lod1	</parent>
 	<visibilityBox>
 		<min>	-0.168469 0.000000 -0.146639	</min>
 		<max>	0.168469 0.168776 0.150858	</max>

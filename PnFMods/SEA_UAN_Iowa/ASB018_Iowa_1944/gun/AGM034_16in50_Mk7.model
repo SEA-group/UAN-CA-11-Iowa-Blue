@@ -1,6 +1,6 @@
 <AGM034_16in50_Mk7.model>
 	<extent>	6.0000	</extent>
-	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/gun/AGM034_16in50_Mk7_lod1	</parent>
+	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/gun/lods/AGM034_16in50_Mk7_lod1	</parent>
 	<materialNames />
 	<visibilityBox>
 		<min>	-0.518246 -0.010803 -0.625949	</min>
