@@ -650,15 +650,6 @@
 				</transform>
 			</node>
 			<node>
-				<identifier>	MP_CTB0689	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000	</row2>
-					<row3>	-0.000575 1.032133 0.479062	</row3>
-				</transform>
-			</node>
-			<node>
 				<identifier>	MP_AM105_Signal_Lamp_3	</identifier>
 				<transform>
 					<row0>	0.000000 0.000000 1.000000 0.000000	</row0>

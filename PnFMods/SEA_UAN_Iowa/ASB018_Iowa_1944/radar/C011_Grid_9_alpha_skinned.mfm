@@ -1,0 +1,7 @@
+<C011_Grid_9_alpha_skinned.mfm>
+	<fx>	shaders/std_effects/grid_alpha_skinned.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/C011_Grid_9_alpha_a.dds	</Texture>
+	</property>
+</C011_Grid_9_alpha_skinned.mfm>
