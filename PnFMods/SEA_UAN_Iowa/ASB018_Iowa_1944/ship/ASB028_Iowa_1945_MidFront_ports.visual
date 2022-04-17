@@ -763,51 +763,6 @@
 				</transform>
 			</node>
 			<node>
-				<identifier>	MP_AM019_Ventilators_1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	-0.5751 0.5615 1.6840 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_AM019_Ventilators_1_INDEX_1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.4282 0.5615 1.9633 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_AM019_Ventilators_1_INDEX_2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	-0.5769 0.5615 2.0551 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_AM020_Ventilators_2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.5083 0.3938 3.1681 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_AM022_Ventilators_4	</identifier>
-				<transform>
-					<row0>	1.2213 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0208 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.2213 0.0000	</row2>
-					<row3>	-0.3454 0.5612 2.3890 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
 				<identifier>	MP_AM037_Searchlight_900mm	</identifier>
 				<transform>
 					<row0>	0.0000 0.0000 -1.0000 0.0000	</row0>
