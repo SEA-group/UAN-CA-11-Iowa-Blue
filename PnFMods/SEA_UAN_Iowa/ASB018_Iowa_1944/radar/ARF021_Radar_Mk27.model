@@ -1,17 +1,8 @@
 <ARF021_Radar_Mk27.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/lods/ARF021_Radar_Mk27_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/ARF021_Radar_Mk27	</nodefullVisual>
-	<animation>
-		<name>	Rotation15rpm	</name>
-		<frameRate>	30.0000	</frameRate>
-		<nodes>	content/animation/common/Rotation15rpm	</nodes>
-	</animation>
-	<action>
-		<name>	idle	</name>
-		<animation>	Rotation15rpm	</animation>
-		<filler>	true	</filler>
-	</action>
+	<visual>	PnFMods/SEA_UAN_Iowa/ASB018_Iowa_1944/radar/ARF021_Radar_Mk27.visual	</visual>
+	<animations>
+		<animation>	content/animation_state_machines/legacy/gameplay/ARF021_Radar_Mk27/ARF021_Radar_Mk27.ssm	</animation>
+	</animations>
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </ARF021_Radar_Mk27.model>
