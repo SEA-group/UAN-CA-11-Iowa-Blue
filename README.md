@@ -1,6 +1,6 @@
 ﻿# UAN CA-11 Iowa
 
-Skin modification for tier 11 cruiser **Iowa**. 
+Skin modification for tier 9 battleship **Iowa**. 
 
 Presented by SEA group
 
